@@ -1,0 +1,66 @@
+The Math.floor() function returns the largest integer less than or equal to a given number.
+(trả về số nguyên nhỏ hơn hoặc bằng số đã cho.)
+Example:
+console.log(Math.floor(5.95));
+// expected output: 5
+
+console.log(Math.floor(5.05));
+// expected output: 5
+
+console.log(Math.floor(5));
+// expected output: 5
+
+console.log(Math.floor(-5.05));
+// expected output: -6
+=============================================================================================
+
+The concat() method concatenates the string arguments to the calling string and returns a new string.
+(nối chuỗi đối số vào chuỗi gọi hàm trả về một chuỗi mới.)
+Example:
+const str1 = 'Hello';
+const str2 = 'World';
+
+console.log(str1.concat(' ', str2));
+// expected output: "Hello World"
+
+console.log(str2.concat(', ', str1));
+// expected output: "World, Hello"
+===============================================================================================
+
+The function  shift()removes  the first element  of an array and returns that element.
+This function after being executed will change the size of the affected array.
+(xóa phần tử đầu tiên của mảng và trả về phần tử đó.
+hàm này sau khi xử lý sẽ làm thay đổi kích thước của mảng thao tác.)
+Example:
+var myFish = ['angel', 'clown', 'mandarin', 'surgeon'];
+
+console.log('myFish before: ' + myFish);
+// "myFish before: angel,clown,mandarin,surgeon"
+
+var shifted = myFish.shift(); 
+
+console.log('myFish after: ' + myFish); 
+// "myFish after: clown,mandarin,surgeon" 
+
+console.log('Removed this element: ' + shifted); 
+// "Removed this element: angel"
+
+==================================================================================================
+
+The  indexOf () method will return the first index value of
+the array where it was found in the array, or -1 if it doesn't exist in the array.
+(trả về vị trí đầu tiên của giá trị cần tìm trong mảng nếu nó tìm thấy hoặc trả về -1
+khi giá trị đó không tồn tại trong mảng)
+Example:
+const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
+
+console.log(beasts.indexOf('bison'));
+// expected output: 1
+
+// start from index 2
+console.log(beasts.indexOf('bison', 2));
+// expected output: 4
+
+console.log(beasts.indexOf('giraffe'));
+// expected output: -1
+===================================================================================================

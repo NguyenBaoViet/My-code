@@ -65,3 +65,8 @@ hoặc mức độ quan trọng) - sự bành trướng, mở rộng.
 55. Customizable: used to describe something that you can change according to a customer's or user's particular
 needs (dùng để mô tả thứ gì đó mà bạn có thể thay đổi theo yêu cầu riêng của khách hàng - người dùng    )
 56. particular = special : riêng, đặc biệt.
+57. positive integer: số nguyên dương.
+58. concatenates: nối.
+59. exponent: số mũ.
+60. bases: cơ số.
+61. occurrence: tần suất xảy 
