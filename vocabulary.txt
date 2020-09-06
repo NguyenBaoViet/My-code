@@ -1,0 +1,67 @@
+1. convention: quy ước
+2. proper: thích hợp
+3. suffixes: hậu tố(phần mở rộng của file).
+4. Semantically: về mặt ngữ nghĩa.
+5. cascade: phân tầng, xếp lớp, thác đổ
+6. CSS: Cascading Style Sheet.
+7. HTML: Hyper Text Markup Language
+8. Hyper Text : siêu văn bản (gồm nhiều nhứ ngoài văn bản như âm thanh, video, siêu liên kết...)
+9. Hyper Link: siêu liên kết (liên kết tới siêu văn bản).
+10. propety: thuộc tính, gía trị.
+11. external: Bên ngoài.
+12. embedded: nhúng bên trong
+13. Cascade Rules: giải quyết lúc css bị xung đột. 
+    - độ ưu tiên của tài liệu CSS.
+    - độ chi tiết của selector.
+    - thứ tự luật.
+14. siblings: anh em.
+15. accestors: tổ tiên.
+16. descendants: hậu duệ.
+17. identifier: định danh.
+18. <div id = "nav">
+    
+    </div>
+    tương đương với:
+    <nav>
+    
+    </nav>
+19. ajustment: điều chỉnh.
+20. indents: thụt đầu dòng.
+21. alignment: căn  chỉnh.
+22. horizontal: ngang.
+23. vertical: dọc.
+24. symbol: kí hiệu.
+25. character, letter: kí tự.
+26. word: từ.
+27. sentence: câu.
+28. paragraph: đoạn văn.
+29. article: bài văn.
+30. expansion : the increase of something in size, number, or importance (sự tăng lên về kích thước, số lượng 
+hoặc mức độ quan trọng) - sự bành trướng, mở rộng.
+31. euphoric : extremely happy and excited - hưng phấn, hăng hái.
+32. economic-driven : định hướng kinh tế.
+33. expand: mở rộng.
+34. course: khóa học.
+35. development: phát triển.
+36. novice = newbie: nhập môn, người mới.
+37. ninja = guru = cao thủ.
+38. comlied language: biên dịch(C++, C, C#)
+39. interpreted language: thông dịch(js,java,PHP)
+40. DOM: document object model - lưu html dưới dạng dối tượng
+41. statement: câu lệnh.
+42. semicolon: dấu chẩm phẩy.
+43. ngôn ngữ định kiểu yếu: javascript,
+44. ngôn ngữ định kiểu mạnh: C#,
+45. type coercion: ép kiểu;
+46. anonymous: nặc danh.
+47. palindrome: đọc ngược hay xuôi 1 từ or cụm từ đều giống nhau.
+48. vowel: nguyên âm (U E O A I)
+49. occurence : tần số.
+50. a prime number(a prime) : số nguyên tố.
+51. primitive values: kiểu dữ liệu nguyên thủy (string, number, boolean, symbol, null và undefinedd).
+52. identity matrix: ma trận đơn vị.
+53. Navigating : chuyển hướng.
+54. Roster: 
+55. Customizable: used to describe something that you can change according to a customer's or user's particular
+needs (dùng để mô tả thứ gì đó mà bạn có thể thay đổi theo yêu cầu riêng của khách hàng - người dùng    )
+56. particular = special : riêng, đặc biệt.
