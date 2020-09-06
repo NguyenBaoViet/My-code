@@ -69,4 +69,4 @@ needs (dùng để mô tả thứ gì đó mà bạn có thể thay đổi theo 
 58. concatenates: nối.
 59. exponent: số mũ.
 60. bases: cơ số.
-61. occurrence: tần suất xảy 
+61. occurrence: tần suất xảy ra.
