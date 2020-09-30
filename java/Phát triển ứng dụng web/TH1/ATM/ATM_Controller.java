@@ -24,4 +24,7 @@ public class ATM_Controller {
         return checkLogin(accNo, pass);
     }
 
+    public void showDetail() {
+        view.showDetail();
+    }
 }
