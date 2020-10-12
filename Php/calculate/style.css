@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    margin:20px auto;
+    width: 600px;
+    border: 1px solid #999;
+    padding: 10px;
+}
+
+.container h1{
+    color: blue;
+    text-align: center;
+}
+
+.container div.row{
+    margin-top:20px;
+}
+
+.container div.row span{
+    display: inline-block;
+    width: 255px;
+    text-align: right;
+}
+
+.container div.row input[type="text"]{
+    padding: 3px 5px;
+}
+
+.container div.row input[type="submit"]{
+    padding: 3px 5px;
+    margin: 0px auto 20px auto;
+    float: left;
+}
+
+.container div.row p{
+    font-weight:bold;
+    font-size: 20px;
+    text-align: center;
+}
