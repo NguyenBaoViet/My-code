@@ -3,7 +3,7 @@
         /**
          * @var CartItem[]
          */
-        private array $item = [];
+        private $items = array();
 
         // TODO Generate getters and setters of properties
 
@@ -20,8 +20,24 @@
          */
         public function addProduct(Product $product,int $quantity) {
             //TODO Implement method
+            // find product in cart
+            $cartItem = $this->findCartItem($product->getID());
+            if ($cartItem === null) {
+                $cartItem = new CartItem($product,0);
+                $this->items[] = $cartItem;
+            }
+            $cartItem->increaseQuantity($quantity);
+            return $cartItem;
         }
 
+        private function findCartItem(int $productId) {
+            foreach ($this->items as $item ) {
+                if ($item->getProduct()->getID() === $productId) {
+                    return $item->getProduct;
+                }
+            }
+            return null;
+        }
         /**
          * Remove product from cart
          * 
@@ -38,6 +54,11 @@
          */
         public function getTotalQuantity() {
             //TODO implement method
+            $sum = 0;
+            foreach ($this->items as $item) {
+                $sum += $item->getQuantity();
+            }
+            return $sum;
         }
 
         /**

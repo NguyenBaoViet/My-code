@@ -14,7 +14,7 @@
     </style>
 </head>
 <body>
-    <table cellpadding="5" cellspacing="10" text-align="center">
+    <table cellpadding="5" cellspacing="10" align="center">
         <h3>Login Form using session and cookies with Remember Me</h3>
         <form action="validate.php" method="post" name = "mainform" id = "login">
             <tr>
